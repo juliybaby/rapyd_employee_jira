@@ -1,0 +1,26 @@
+  {
+     "name": "Employees Salary Payments Apps by Rapyd API",
+     "description": "An Atlassian Jira Cloud Addon or Plugins that allow Employers/Team Members to easily Manage and Pay Salaries, Wages etc, to their Staffs, Employees, Workers powered by Rapyd Payments API",
+     "key": "com.example.myapp",
+     "baseUrl": "https://qbtut.com/employeeci_jira_app",
+     "vendor": {
+         "name": "Fred, Inc.",
+         "url": "https://qbtut.com/employeeci_jira_app/index.html"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/index.html",
+                 "key": "employees-payments",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "Employees-Pay-by-Rapyd"
+                 }
+             }
+         ]
+     }
+}
